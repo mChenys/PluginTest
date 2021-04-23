@@ -23,3 +23,6 @@ demo未实现部分：
 可以通过反射修改系统的Resources值，此时需要考虑资源id冲突问题,解决方案：
 + 修改aapt命令里的packageid值，生成新的aapt替换原系统下的aapt，做到插件id与宿主id不一样（参考ZeusPlulgin）
 + hook Android打包流程，修改arsc以及R文件生成的ID值（参考gradle-small）
+
+
+原文:https://blog.csdn.net/qq_37022484/article/details/109535324?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-4.baidujs&dist_request_id=&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-4.baidujs
